@@ -10,7 +10,8 @@ import ipConfig from "./ipConfig.json";
 import ThemeProvider from "./theme.js";
 
 export const config = {
-  endpoint: `http://${ipConfig.workspaceIp}:8082/api/v1`,
+  // endpoint: `http://${ipConfig.workspaceIp}:8082/api/v1`,
+  endpoint: `${ipConfig.workspaceIp}/api/v1`,
 };
 
 function App() {
